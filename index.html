@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./styles/main.css"/>
+        <title>CompanyInn</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,&display=swap" 
+            rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    </head>
+<body>
+    <header class="header">
+        <a class="header__wrapper" href="/index.html">
+            <img class="header__logo" src="/assets/logo.png" alt="Логотип">
+            <h1 class="header__name">CompanyInn</h1>
+        </a>
+    </header>
+    <main class="container">
+        <form class="registration">
+            <h2 class="registration__title">Регистрация</h2>
+            <span class="registration__msg"></span>
+            <input id ="login" class= "registration__input" type="text" placeholder="Логин" autofocus autocomplete="off" required minlength="3">
+            <input id ="password" class= "registration__input" type="password" placeholder="Пароль" autocomplete="off" required minlength="5">
+            <button class= "registration__button" type="submit">Зарегистрироваться</button>
+        </form>
+    </main>
+    <script type="module" src="./js/registration.js"></script>
+</body>
+</html>

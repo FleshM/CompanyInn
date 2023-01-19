@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./styles/main.css"/>
+        <title>CompanyInn</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,&display=swap" 
+            rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    </head>
+<body>
+    <header class="header">
+        <a class="header__wrapper" href="/companies.html">
+            <img class="header__logo" src="/assets/logo.png" alt="Логотип">
+            <h1 class="header__name">CompanyInn</h1>
+        </a>
+    </header>
+    <main>
+        <div class="interface">
+            <p class="interface__sort">
+                <img class="interface__svg" src="/assets/sort.svg">
+                Сортировать по
+                <button id="business_name" class="interface__param-active">названию</button>/ 
+                <button id="industry" class="interface__param">виду деятельности</button>/ 
+                <button id="type" class="interface__param">типу</button>
+            </p>
+            <button id="update" class="interface__reload"><img class="interface__svg" src="assets/reload.svg">Обновить</button>
+            <a href="/companies/add.html" class="interface__button">Добавить компанию</a>
+        </div>
+        <ul class="companies">
+        </ul>
+        <div class="more">
+            <button class="more__button">Показать еще</button>
+        </div>
+    </main>
+    <script type="module" src="./js/companies.js"></script>
+</body>
+</html>

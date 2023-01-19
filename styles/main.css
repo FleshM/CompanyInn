@@ -1,0 +1,64 @@
+@import './registration.css';
+@import './header.css';
+@import './interface.css';
+@import './companies.css';
+@import './more.css';
+@import './add.css';
+@import './about.css';
+@import './screens.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #F9FBFE;
+
+  margin: 0;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+  font: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+ }
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px
+}

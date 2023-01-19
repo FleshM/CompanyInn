@@ -1,0 +1,20 @@
+.more {
+    width: 100%;
+    display: flex;
+}
+
+.more__button {
+    display: none;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #1E57D8;
+    border-radius: 8px;
+
+    transition: background-color 0.3 ease;
+}
+
+.more__button:hover {
+    background-color: #15347e;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="/styles/main.css"/>
+        <title>Добавить компанию</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,&display=swap" 
+            rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    </head>
+<body>
+    <header class="header">
+        <a class="header__wrapper" href="/companies.html">
+            <img class="header__logo" src="/assets/logo.png" alt="Логотип">
+            <h1 class="header__name">CompanyInn</h1>
+        </a>
+    </header>
+    <main>
+        <form class="add">
+            <h2 class="add__title">Добавление новой компании</h2>
+            <span class="add__msg"></span>
+            <input class= "add__input" type="text" placeholder="Название" autofocus autocomplete="off" required maxlength="15">
+            <select class="add__select" required>
+                <option value="">Вид деятельности</option>
+                <option value="Лесоводство и лесозаготовки">Лесоводство и лесозаготовки</option>
+                <option value="Добыча угля">Добыча угля</option>
+                <option value="Производство мебели">Производство мебели</option>
+                <option value="Научные исследования и разработки">Научные исследования и разработки</option>
+                <option value="Деятельность общественных организаций">Деятельность общественных организаций</option>
+            </select>
+            <div class="add__checkbox">
+                <input class="add__checkbox-box" type="checkbox" id="checkbox">
+                <label class="add__checkbox-label" for="checkbox">Присутствие на Российском рынке</label>
+            </div>
+            <div class="add__wrapper">
+                <button class= "add__button" type="submit">Добавить</button>
+                <a href="/companies.html" class= "add__cancel" >Отмена</a>
+            </div>
+        </form>
+    </main>
+    <script type="module" src="/js/add.js"></script>
+</body>
+</html>

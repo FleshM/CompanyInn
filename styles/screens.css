@@ -1,0 +1,50 @@
+@media screen and (max-width: 1000px) {
+    body {
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .companies__logo {
+        height: 100%;
+        max-width: 100px;
+    }
+
+    .interface {
+        max-width: 700px;
+        flex-direction: column;
+    }
+
+    .interface__sort {
+        font-size: 0.6em;
+    }
+
+    .interface__svg {
+        max-height: 10px;
+    }
+
+    .interface__reload {
+        margin: 15px 0;
+        font-size: 0.8em;
+    }
+
+    .add {
+        padding:0 30px;
+    }
+
+    .add__button {
+        font-size: 1em;
+    }
+    
+    .add__cancel {
+        font-size: 0.9em;
+    }
+
+    .companies__company {
+        padding: 10px 20px 20px;
+    }
+
+    .about__logo {
+        display: none;
+    }
+}

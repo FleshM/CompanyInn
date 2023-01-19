@@ -1,0 +1,89 @@
+.about {
+    max-width: 900px;
+    padding: 0 5px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.about__block {
+    margin-top: 12px;
+    margin-bottom: 60px;
+    width: 100%;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 30px;
+    border-bottom: 3px solid black;
+}
+
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__logo {
+    height: 100%;
+    max-width: 350px;
+    min-width: 100px;
+}
+
+.about__name {
+    font-weight: 500;
+    font-size: 2.1em;
+}
+
+.about__catchphrase {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.about__industry {
+    margin-top: 50px;
+    font-size: 1.4em;
+}
+
+.about__type {
+    margin-top: 5px;
+
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.about__phone {
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+
+    font-size: 1.4em;
+}
+
+.about__phone img{
+    max-height: 28px;
+    margin-right: 8px;
+}
+
+.about__back {
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+
+    color: #3E3E3E;
+    font-size: 1.4em;
+}
+
+.about__back:hover {
+    color: black;
+}
+
+.about__back img{
+    padding-right: 10px;
+}
+
+.about__address{
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}

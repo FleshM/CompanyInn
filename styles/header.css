@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__wrapper {
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header__logo {
+    max-height: 30px;
+}
+
+.header__name {
+    padding-left: 15px;
+
+    font-size: 1.8em;
+    font-weight: 500;
+}
